@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,28 +11,28 @@
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./img/coquetel.png" alt="Logo" width="60" height="40"
+                <img src="./img/coquetel.png" alt="Logo" width="40" height="24"
                     class="d-inline-block align-text-top">
                 Commit Drinks
             </a>
-            <div class="search-container">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+            <form class="d-flex search-form">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
         </div>
     </nav>
 
-    <div id="cocktail-list"></div>
+    <div class="container mt-4">
+        <div id="cocktail-list" class="row"></div>
+    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
 
 </html>
