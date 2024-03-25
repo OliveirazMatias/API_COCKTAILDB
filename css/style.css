@@ -47,3 +47,57 @@ body {
   font-size: 16px;
   margin-bottom: 0;
 }
+
+/* RANDOM DRINK CSS */
+
+#random-drink-btn {
+  margin-left: 10px;
+}
+
+@media (max-width: 991.98px) {
+  #random-drink-btn {
+      margin-left: 0;
+      margin-right: 10px;
+  }
+
+  .search-form {
+      flex-basis: 100%;
+  }
+}
+#random-drink-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #6c757d;
+}
+
